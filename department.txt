@@ -1,0 +1,17 @@
+{
+    "departmentName": "CS",
+    "departmentAddress": "Delhi",
+    "departmentCode": "CS-01"
+}
+-----------------------------------------------
+{
+    "departmentName": "EEE",
+    "departmentAddress": "Pune",
+    "departmentCode": "EEE-02"
+}
+-----------------------------------------------
+{
+    "departmentName": "IT",
+    "departmentAddress": "Banglore",
+    "departmentCode": "IT-03"
+}
