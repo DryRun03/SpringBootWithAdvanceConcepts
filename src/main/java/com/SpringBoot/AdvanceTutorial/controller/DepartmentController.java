@@ -2,6 +2,7 @@ package com.SpringBoot.AdvanceTutorial.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -24,7 +25,7 @@ public class DepartmentController {
 	private final Logger LOGGER = LoggerFactory.getLogger(DepartmentController.class);
 	
 	
-	@GetMapping("/departments")
+	@RequestMapping(path = "/deparmtents", method = RequestMethod.GET)
 	public List<Department> fetchDepartmentList(){
 		return departmentService.fetchDepartmentList();	
 	}
